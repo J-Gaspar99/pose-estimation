@@ -63,6 +63,6 @@ python poza_modul.py  -p izlaz/$CAM3/undistorted.mp4 \
                      # -o izlaz/$CAM3/json/poze_{num:05d}.json
 
 
-cd mediapipe_pose_3d_reconstruction && cd bodypose3d && python bodypose3d.py
+cd openpose_3d_reconstruction && cd bodypose3d && python bodypose3d.py
 
 sleep 3
